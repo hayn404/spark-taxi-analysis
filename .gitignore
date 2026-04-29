@@ -1,0 +1,15 @@
+# Output files
+*.txt
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Spark temp files
+derby.log
+metastore_db/
+spark-warehouse/
+
+# Large data files (never push these to GitHub)
+*.parquet
+*.csv
+*.zip
